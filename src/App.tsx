@@ -20,7 +20,7 @@ function App() {
     { type: 'command', text: 'cat cv.md' },
     { type: 'output', text: '- Instaffo GmbH\n  - 2025      Head of Engineering\n  - 2019-2025 Platform Development Lead\n  - 2017-2019 (Co-)CTO\n- launchwerk GmbH (defunct)\n  - 2015-2017 Ruby on Rails Developer' },
     { type: 'command', text: 'cat skills.md' },
-    { type: 'output', text: '- Tech:\n  - ♥ Rust\n  - ▲ Ruby on Rails, React, TypeScript, AI\n  - ★ Almost everything\n- Interests: Hiking, Culture, Art, History, Travel\n- Languages:\n  - Fluent: German, English\n  - Conversational: Ukrainian, Russian\n  - Some: French, Persian, Turkish' },
+    { type: 'output', text: '- Professional:\n  - ♥ Rust, Engineering, Team Building\n  - ▲ Ruby on Rails, React, TypeScript, AI, k8s\n  - ★ Almost everything tech\n- Interests: Hiking, Culture, Art, History, Travel\n- Languages:\n  - Fluent: German, English\n  - Conversational: Ukrainian, Russian\n  - Some: French, Persian, Turkish' },
     { type: 'command', text: 'ls links/' },
     { type: 'links', text: '' }
   ]
