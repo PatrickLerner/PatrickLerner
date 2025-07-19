@@ -165,19 +165,34 @@ body {
 
 .ascii-art {
   font-size: 0.75rem;
-  line-height: 1.2;
+  line-height: 1;
   margin-bottom: 2rem;
   white-space: pre;
   overflow-x: auto;
+  font-family: 'Fira Code', monospace;
 }
 
 @media (max-width: 640px) {
   .terminal-container {
-    padding: 1rem;
+    padding: 0;
+    align-items: stretch;
+    min-height: 100vh;
+  }
+  
+  .terminal {
+    border-radius: 0;
+    margin-top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
   
   .terminal-body {
     padding: 1.5rem;
+    min-height: auto;
+    height: auto;
+    flex: 1;
+    overflow-y: auto;
   }
   
   .links {
@@ -186,5 +201,7 @@ body {
   
   .ascii-art {
     font-size: 0.5rem;
+    line-height: 1;
+    overflow-x: visible;
   }
 }
