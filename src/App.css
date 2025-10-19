@@ -18,6 +18,12 @@
   --nord13: #ebcb8b;
   --nord14: #a3be8c;
   --nord15: #b48ead;
+
+  /* Custom colors */
+  --bg-dark: #1a1d23;
+
+  /* Font families */
+  --font-persian: 'Nazanin', 'B Nazanin', serif;
 }
 
 * {
@@ -28,7 +34,7 @@
 
 body {
   font-family: 'Fira Code', monospace;
-  background-color: #1a1d23;
+  background-color: var(--bg-dark);
   color: var(--nord4);
   min-height: 100vh;
   overflow-x: hidden;
@@ -45,7 +51,7 @@ body {
 .terminal {
   background-color: var(--nord1);
   border-radius: 8px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 8px 32px rgb(0 0 0 / 60%);
   width: 100%;
   max-width: 800px;
   overflow: hidden;
@@ -127,8 +133,15 @@ body {
 }
 
 @keyframes blink {
-  0%, 50% { opacity: 1; }
-  51%, 100% { opacity: 0; }
+  0%,
+  50% {
+    opacity: 1;
+  }
+
+  51%,
+  100% {
+    opacity: 0;
+  }
 }
 
 .links {
@@ -172,13 +185,13 @@ body {
   font-family: 'Fira Code', monospace;
 }
 
-@media (max-width: 640px) {
+@media (width <= 640px) {
   .terminal-container {
     padding: 0;
     align-items: stretch;
     min-height: 100vh;
   }
-  
+
   .terminal {
     border-radius: 0;
     margin-top: 0;
@@ -186,7 +199,7 @@ body {
     display: flex;
     flex-direction: column;
   }
-  
+
   .terminal-body {
     padding: 1.5rem;
     min-height: auto;
@@ -194,11 +207,11 @@ body {
     flex: 1;
     overflow-y: auto;
   }
-  
+
   .links {
     gap: 1rem;
   }
-  
+
   .ascii-art {
     font-size: 0.5rem;
     line-height: 1;
