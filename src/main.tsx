@@ -4,6 +4,13 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import App from './App.tsx'
 import Persian from './Persian.tsx'
 
+// Handle GitHub Pages SPA redirect
+const hash = window.location.hash
+if (hash.startsWith('#!')) {
+  const path = hash.slice(2)
+  window.history.replaceState(null, '', path)
+}
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
