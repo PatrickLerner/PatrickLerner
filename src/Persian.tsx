@@ -18,8 +18,9 @@ function Persian() {
               <thead>
                 <tr>
                   <th>Pronoun</th>
-                  <th>Ending</th>
-                  <th>Example</th>
+                  <th>Ending (W/S)</th>
+                  <th>Written</th>
+                  <th>Spoken</th>
                 </tr>
               </thead>
               <tbody>
@@ -29,6 +30,9 @@ function Persian() {
                   </td>
                   <td>
                     <span className="ending">ـَم</span> (-am)
+                  </td>
+                  <td>
+                    <span className="persian-inline">رفتم</span> (raftam)
                   </td>
                   <td>
                     <span className="persian-inline">رفتم</span> (raftam)
@@ -44,6 +48,9 @@ function Persian() {
                   <td>
                     <span className="persian-inline">رفتی</span> (rafti)
                   </td>
+                  <td>
+                    <span className="persian-inline">رفتی</span> (rafti)
+                  </td>
                 </tr>
                 <tr>
                   <td>
@@ -51,6 +58,9 @@ function Persian() {
                   </td>
                   <td>
                     <span className="ending">—</span>
+                  </td>
+                  <td>
+                    <span className="persian-inline">رفت</span> (raft)
                   </td>
                   <td>
                     <span className="persian-inline">رفت</span> (raft)
@@ -66,16 +76,22 @@ function Persian() {
                   <td>
                     <span className="persian-inline">رفتیم</span> (raftim)
                   </td>
+                  <td>
+                    <span className="persian-inline">رفتیم</span> (raftim)
+                  </td>
                 </tr>
                 <tr>
                   <td>
                     <span className="persian-inline">شما</span> (shomā)
                   </td>
                   <td>
-                    <span className="ending">ـید</span> (-id)
+                    <span className="ending">ـید / ـین</span> (-id / -in)
                   </td>
                   <td>
                     <span className="persian-inline">رفتید</span> (raftid)
+                  </td>
+                  <td>
+                    <span className="persian-inline">رفتین</span> (raftin)
                   </td>
                 </tr>
                 <tr>
@@ -83,10 +99,13 @@ function Persian() {
                     <span className="persian-inline">آنها</span> (ānhā)
                   </td>
                   <td>
-                    <span className="ending">ـَند</span> (-and)
+                    <span className="ending">ـَند / ـَن</span> (-and / -an)
                   </td>
                   <td>
                     <span className="persian-inline">رفتند</span> (raftand)
+                  </td>
+                  <td>
+                    <span className="persian-inline">رفتن</span> (raftan)
                   </td>
                 </tr>
               </tbody>
@@ -111,8 +130,9 @@ function Persian() {
               <thead>
                 <tr>
                   <th>Pronoun</th>
-                  <th>Ending</th>
-                  <th>Example</th>
+                  <th>Ending (W/S)</th>
+                  <th>Written</th>
+                  <th>Spoken</th>
                 </tr>
               </thead>
               <tbody>
@@ -126,6 +146,9 @@ function Persian() {
                   <td>
                     <span className="persian-inline">می‌روم</span> (miravam)
                   </td>
+                  <td>
+                    <span className="persian-inline">میرم</span> (miram)
+                  </td>
                 </tr>
                 <tr>
                   <td>
@@ -137,16 +160,22 @@ function Persian() {
                   <td>
                     <span className="persian-inline">می‌روی</span> (miravi)
                   </td>
+                  <td>
+                    <span className="persian-inline">میری</span> (miri)
+                  </td>
                 </tr>
                 <tr>
                   <td>
                     <span className="persian-inline">او</span> (u)
                   </td>
                   <td>
-                    <span className="ending">ـَد</span> (-ad)
+                    <span className="ending">ـَد / ـه</span> (-ad / -e)
                   </td>
                   <td>
                     <span className="persian-inline">می‌رود</span> (miravad)
+                  </td>
+                  <td>
+                    <span className="persian-inline">میره</span> (mire)
                   </td>
                 </tr>
                 <tr>
@@ -159,16 +188,22 @@ function Persian() {
                   <td>
                     <span className="persian-inline">می‌رویم</span> (miravim)
                   </td>
+                  <td>
+                    <span className="persian-inline">میریم</span> (mirim)
+                  </td>
                 </tr>
                 <tr>
                   <td>
                     <span className="persian-inline">شما</span> (shomā)
                   </td>
                   <td>
-                    <span className="ending">ـید</span> (-id)
+                    <span className="ending">ـید / ـین</span> (-id / -in)
                   </td>
                   <td>
                     <span className="persian-inline">می‌روید</span> (miravid)
+                  </td>
+                  <td>
+                    <span className="persian-inline">میرین</span> (mirin)
                   </td>
                 </tr>
                 <tr>
@@ -176,10 +211,13 @@ function Persian() {
                     <span className="persian-inline">آنها</span> (ānhā)
                   </td>
                   <td>
-                    <span className="ending">ـَند</span> (-and)
+                    <span className="ending">ـَند / ـَن</span> (-and / -an)
                   </td>
                   <td>
                     <span className="persian-inline">می‌روند</span> (miravand)
+                  </td>
+                  <td>
+                    <span className="persian-inline">میرن</span> (miran)
                   </td>
                 </tr>
               </tbody>
@@ -345,8 +383,9 @@ function Persian() {
               <thead>
                 <tr>
                   <th>Pronoun</th>
-                  <th>Ending</th>
-                  <th>Example</th>
+                  <th>Ending (W/S)</th>
+                  <th>Written</th>
+                  <th>Spoken</th>
                 </tr>
               </thead>
               <tbody>
@@ -360,6 +399,9 @@ function Persian() {
                   <td>
                     <span className="persian-inline">بروم</span> (beravam)
                   </td>
+                  <td>
+                    <span className="persian-inline">برم</span> (beram)
+                  </td>
                 </tr>
                 <tr>
                   <td>
@@ -371,16 +413,22 @@ function Persian() {
                   <td>
                     <span className="persian-inline">بروی</span> (beravi)
                   </td>
+                  <td>
+                    <span className="persian-inline">بری</span> (beri)
+                  </td>
                 </tr>
                 <tr>
                   <td>
                     <span className="persian-inline">او</span> (u)
                   </td>
                   <td>
-                    <span className="ending">ـَد</span> (-ad)
+                    <span className="ending">ـَد / ـه</span> (-ad / -e)
                   </td>
                   <td>
                     <span className="persian-inline">برود</span> (beravad)
+                  </td>
+                  <td>
+                    <span className="persian-inline">بره</span> (bere)
                   </td>
                 </tr>
                 <tr>
@@ -393,16 +441,22 @@ function Persian() {
                   <td>
                     <span className="persian-inline">برویم</span> (beravim)
                   </td>
+                  <td>
+                    <span className="persian-inline">بریم</span> (berim)
+                  </td>
                 </tr>
                 <tr>
                   <td>
                     <span className="persian-inline">شما</span> (shomā)
                   </td>
                   <td>
-                    <span className="ending">ـید</span> (-id)
+                    <span className="ending">ـید / ـین</span> (-id / -in)
                   </td>
                   <td>
                     <span className="persian-inline">بروید</span> (beravid)
+                  </td>
+                  <td>
+                    <span className="persian-inline">برین</span> (berin)
                   </td>
                 </tr>
                 <tr>
@@ -410,10 +464,13 @@ function Persian() {
                     <span className="persian-inline">آنها</span> (ānhā)
                   </td>
                   <td>
-                    <span className="ending">ـَند</span> (-and)
+                    <span className="ending">ـَند / ـَن</span> (-and / -an)
                   </td>
                   <td>
                     <span className="persian-inline">بروند</span> (beravand)
+                  </td>
+                  <td>
+                    <span className="persian-inline">برن</span> (beran)
                   </td>
                 </tr>
               </tbody>
@@ -470,14 +527,15 @@ function Persian() {
             <p className="card-desc">
               Formed with <span className="persian-inline">خواستن</span> (khastan) conjugated +
               infinitive. Ex: <span className="persian-inline">خواهم رفت</span> (khaham raft) - "I
-              will go"
+              will go". In spoken Persian, the present tense is typically used for future instead.
             </p>
             <table className="verb-table">
               <thead>
                 <tr>
                   <th>Pronoun</th>
-                  <th>خواستن Form</th>
-                  <th>Example</th>
+                  <th>خواستن (W)</th>
+                  <th>Written</th>
+                  <th>Spoken</th>
                 </tr>
               </thead>
               <tbody>
@@ -491,6 +549,9 @@ function Persian() {
                   <td>
                     <span className="persian-inline">خواهم رفت</span> (khaham raft)
                   </td>
+                  <td>
+                    <span className="persian-inline">میرم</span> (miram)
+                  </td>
                 </tr>
                 <tr>
                   <td>
@@ -501,6 +562,9 @@ function Persian() {
                   </td>
                   <td>
                     <span className="persian-inline">خواهی رفت</span> (khahi raft)
+                  </td>
+                  <td>
+                    <span className="persian-inline">میری</span> (miri)
                   </td>
                 </tr>
                 <tr>
@@ -513,6 +577,9 @@ function Persian() {
                   <td>
                     <span className="persian-inline">خواهد رفت</span> (khahad raft)
                   </td>
+                  <td>
+                    <span className="persian-inline">میره</span> (mire)
+                  </td>
                 </tr>
                 <tr>
                   <td>
@@ -523,6 +590,9 @@ function Persian() {
                   </td>
                   <td>
                     <span className="persian-inline">خواهیم رفت</span> (khahim raft)
+                  </td>
+                  <td>
+                    <span className="persian-inline">میریم</span> (mirim)
                   </td>
                 </tr>
                 <tr>
@@ -535,6 +605,9 @@ function Persian() {
                   <td>
                     <span className="persian-inline">خواهید رفت</span> (khahid raft)
                   </td>
+                  <td>
+                    <span className="persian-inline">میرین</span> (mirin)
+                  </td>
                 </tr>
                 <tr>
                   <td>
@@ -545,6 +618,9 @@ function Persian() {
                   </td>
                   <td>
                     <span className="persian-inline">خواهند رفت</span> (khahand raft)
+                  </td>
+                  <td>
+                    <span className="persian-inline">میرن</span> (miran)
                   </td>
                 </tr>
               </tbody>
