@@ -371,6 +371,215 @@ function Persian() {
         <div className="grid-two">
           <div className="card">
             <h3 className="card-title-small">
+              Possessive Suffixes <span className="persian-inline">صفات ملکی</span>
+            </h3>
+            <p className="card-desc">
+              Added directly to nouns. Ex: <span className="persian-inline">خانه</span> (khāne) - "house"
+            </p>
+            <table className="verb-table">
+              <thead>
+                <tr>
+                  <th>Pronoun</th>
+                  <th>Suffix</th>
+                  <th>Example</th>
+                  <th>Meaning</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <span className="persian-inline">من</span> (man)
+                  </td>
+                  <td>
+                    <span className="ending">ـَم</span> (-am)
+                  </td>
+                  <td>
+                    <span className="persian-inline">خانه‌ام</span> (khāneam)
+                  </td>
+                  <td>my house</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span className="persian-inline">تو</span> (to)
+                  </td>
+                  <td>
+                    <span className="ending">ـَت</span> (-at)
+                  </td>
+                  <td>
+                    <span className="persian-inline">خانه‌ات</span> (khāneat)
+                  </td>
+                  <td>your house</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span className="persian-inline">او</span> (u)
+                  </td>
+                  <td>
+                    <span className="ending">ـَش</span> (-ash)
+                  </td>
+                  <td>
+                    <span className="persian-inline">خانه‌اش</span> (khāneash)
+                  </td>
+                  <td>his/her house</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span className="persian-inline">ما</span> (mā)
+                  </td>
+                  <td>
+                    <span className="ending">ـَمان</span> (-emān)
+                  </td>
+                  <td>
+                    <span className="persian-inline">خانه‌مان</span> (khānemān)
+                  </td>
+                  <td>our house</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span className="persian-inline">شما</span> (shomā)
+                  </td>
+                  <td>
+                    <span className="ending">ـَتان</span> (-etān)
+                  </td>
+                  <td>
+                    <span className="persian-inline">خانه‌تان</span> (khānetān)
+                  </td>
+                  <td>your house</td>
+                </tr>
+                <tr>
+                  <td>
+                    <span className="persian-inline">آنها</span> (ānhā)
+                  </td>
+                  <td>
+                    <span className="ending">ـَشان</span> (-eshān)
+                  </td>
+                  <td>
+                    <span className="persian-inline">خانه‌شان</span> (khāneshān)
+                  </td>
+                  <td>their house</td>
+                </tr>
+              </tbody>
+            </table>
+            <p className="note">
+              <strong>Note:</strong> After consonants, these suffixes connect directly. After vowels, use
+              <span className="persian-inline"> ی </span> as a connector (e.g.,
+              <span className="persian-inline">کتابم</span> vs <span className="persian-inline">بابایم</span>).
+            </p>
+          </div>
+
+          <div className="card">
+            <h3 className="card-title-small">
+              Object Pronouns <span className="persian-inline">ضمایر مفعولی</span>
+            </h3>
+            <p className="card-desc">
+              Used with <span className="persian-inline">را</span> (rā) or attached to verbs for "me", "you", etc.
+            </p>
+            <table className="verb-table">
+              <thead>
+                <tr>
+                  <th>Pronoun</th>
+                  <th>With را</th>
+                  <th>Suffix</th>
+                  <th>Example</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <span className="persian-inline">من</span> (man)
+                  </td>
+                  <td>
+                    <span className="persian-inline">مرا</span> (marā)
+                  </td>
+                  <td>
+                    <span className="ending">ـَم</span> (-am)
+                  </td>
+                  <td>
+                    <span className="persian-inline">دیدم</span> (didam) - "saw me"
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span className="persian-inline">تو</span> (to)
+                  </td>
+                  <td>
+                    <span className="persian-inline">ترا</span> (torā)
+                  </td>
+                  <td>
+                    <span className="ending">ـَت</span> (-at)
+                  </td>
+                  <td>
+                    <span className="persian-inline">دیدت</span> (didat) - "saw you"
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span className="persian-inline">او</span> (u)
+                  </td>
+                  <td>
+                    <span className="persian-inline">او را</span> (u rā)
+                  </td>
+                  <td>
+                    <span className="ending">ـَش</span> (-ash)
+                  </td>
+                  <td>
+                    <span className="persian-inline">دیدش</span> (didash) - "saw him/her"
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span className="persian-inline">ما</span> (mā)
+                  </td>
+                  <td>
+                    <span className="persian-inline">ما را</span> (mā rā)
+                  </td>
+                  <td>
+                    <span className="ending">ـَمان</span> (-emān)
+                  </td>
+                  <td>
+                    <span className="persian-inline">دیدمان</span> (didemān) - "saw us"
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span className="persian-inline">شما</span> (shomā)
+                  </td>
+                  <td>
+                    <span className="persian-inline">شما را</span> (shomā rā)
+                  </td>
+                  <td>
+                    <span className="ending">ـَتان</span> (-etān)
+                  </td>
+                  <td>
+                    <span className="persian-inline">دیدتان</span> (didetān) - "saw you"
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span className="persian-inline">آنها</span> (ānhā)
+                  </td>
+                  <td>
+                    <span className="persian-inline">آنها را</span> (ānhā rā)
+                  </td>
+                  <td>
+                    <span className="ending">ـَشان</span> (-eshān)
+                  </td>
+                  <td>
+                    <span className="persian-inline">دیدشان</span> (dideshān) - "saw them"
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p className="note">
+              <strong>Note:</strong> In spoken Persian, <span className="persian-inline">را</span> (rā) is
+              often shortened to <span className="persian-inline">رو</span> (ro).
+            </p>
+          </div>
+        </div>
+
+        <div className="grid-two">
+          <div className="card">
+            <h3 className="card-title-small">
               Subjunctive/Imperative <span className="persian-inline">التزامی/امری</span>
             </h3>
             <p className="card-desc">
