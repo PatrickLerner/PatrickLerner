@@ -1,8 +1,12 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import App from './App.tsx'
+import Home from './Home.tsx'
+import Post from './Post.tsx'
+import CV from './CV.tsx'
 import Persian from './Persian.tsx'
+import ScrollToTop from './ScrollToTop.tsx'
+import './site.css'
 
 // Handle GitHub Pages SPA redirect
 const hash = window.location.hash
@@ -14,8 +18,11 @@ if (hash.startsWith('#!')) {
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/writing/:slug" element={<Post />} />
+        <Route path="/cv" element={<CV />} />
         <Route path="/persian" element={<Persian />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
