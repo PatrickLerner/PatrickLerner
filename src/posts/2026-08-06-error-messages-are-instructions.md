@@ -1,6 +1,6 @@
 ---
 title: Error messages are instructions
-date: 2026-07-23
+date: 2026-08-06
 theme: ai-in-practice
 ---
 

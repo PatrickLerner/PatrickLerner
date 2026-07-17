@@ -1,6 +1,6 @@
 ---
 title: New laptop in thirty minutes
-date: 2026-07-21
+date: 2026-08-13
 theme: ai-in-practice
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Instrument your agents
-date: 2026-07-30
+date: 2026-07-28
 theme: ai-in-practice
 ---
 

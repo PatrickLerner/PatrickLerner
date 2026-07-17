@@ -1,6 +1,6 @@
 ---
 title: Every AI Workflow Is a Verification Loop
-date: 2026-08-06
+date: 2026-08-04
 theme: ai-in-practice
 ---
 

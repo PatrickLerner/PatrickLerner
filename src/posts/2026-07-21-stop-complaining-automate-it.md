@@ -1,6 +1,6 @@
 ---
 title: Stop complaining automate it
-date: 2026-07-28
+date: 2026-07-21
 theme: ai-in-practice
 ---
 

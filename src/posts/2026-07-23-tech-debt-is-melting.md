@@ -1,6 +1,6 @@
 ---
 title: Tech debt is melting
-date: 2026-07-14
+date: 2026-07-23
 theme: ai-in-practice
 ---
 

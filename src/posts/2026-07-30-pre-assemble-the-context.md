@@ -1,6 +1,6 @@
 ---
 title: Pre-assemble the context
-date: 2026-07-16
+date: 2026-07-30
 theme: ai-in-practice
 ---
 
