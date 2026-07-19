@@ -9,6 +9,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         <div className="wrap">
           <nav className="nav">
             <Link to="/">Writing</Link>
+            <Link to="/travels">Travels</Link>
             <Link to="/cv">CV</Link>
           </nav>
         </div>

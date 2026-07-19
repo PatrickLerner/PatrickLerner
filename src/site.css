@@ -429,6 +429,102 @@ a:hover {
   margin: 0;
 }
 
+/* ---- travels ---- */
+.travels {
+  padding-top: 3.5rem;
+}
+
+.travels h1 {
+  font-family: var(--font-sans);
+  font-size: 2.4rem;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  font-weight: 650;
+  margin: 0 0 0.75rem;
+}
+
+.map-frame {
+  margin: 2rem 0 2.5rem;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  /* water: faint cool blue paper tint */
+  background: #dde6f1;
+  overflow: hidden;
+}
+
+.map-frame svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.map-frame .land path {
+  /* land: faint warm beige */
+  fill: #f6f1e7;
+  stroke: #ddd6c8;
+  stroke-width: 0.06;
+  stroke-linejoin: round;
+}
+
+.map-frame .route {
+  fill: none;
+  stroke: var(--accent-soft);
+  stroke-width: 0.12;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-dasharray: 0.5 0.5;
+  opacity: 0.65;
+}
+
+.map-frame .place {
+  fill: var(--accent);
+  fill-opacity: 0.8;
+  stroke: var(--bg);
+  stroke-width: 0.12;
+}
+
+.map-frame .place-label {
+  fill: var(--text);
+  font-family: var(--font-sans);
+  font-size: 0.95px;
+  font-weight: 600;
+  paint-order: stroke;
+  stroke: var(--bg-soft);
+  stroke-width: 0.35;
+}
+
+.stay-feed {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--rule);
+}
+
+.stay-feed li {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.stay-title {
+  font-family: var(--font-sans);
+  font-size: 1.3rem;
+  font-weight: 620;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin: 0.3rem 0 0.2rem;
+}
+
+.stay-country {
+  color: var(--text-soft);
+  font-weight: 400;
+}
+
+.stay-dur {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-faint);
+}
+
 .not-found {
   padding: 5rem 0;
   text-align: center;

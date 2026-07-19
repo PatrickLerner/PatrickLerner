@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Home from './Home.tsx'
 import Post from './Post.tsx'
 import CV from './CV.tsx'
+import Travels from './Travels.tsx'
 import Persian from './Persian.tsx'
 import ScrollToTop from './ScrollToTop.tsx'
 import './site.css'
@@ -23,6 +24,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/" element={<Home />} />
         <Route path="/writing/:slug" element={<Post />} />
         <Route path="/cv" element={<CV />} />
+        <Route path="/travels" element={<Travels />} />
         <Route path="/persian" element={<Persian />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
