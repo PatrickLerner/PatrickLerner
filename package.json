@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "travels": "node scripts/build-travels.mjs",
     "build": "tsc -b && vite build",
     "lint": "eslint . && prettier --check . && stylelint \"**/*.css\"",
     "format": "prettier --write .",
