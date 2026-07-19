@@ -20,7 +20,7 @@ export default function Post() {
         <div className="wrap">
           <div className="not-found">
             <p>That post does not exist.</p>
-            <Link to="/">Back to writing</Link>
+            <Link to="/writing">Back to writing</Link>
           </div>
         </div>
       </Layout>
@@ -30,13 +30,14 @@ export default function Post() {
   return (
     <Layout>
       <article className="wrap article">
-        <Link to="/" className="back">
-          ← Writing
+        <Link to="/writing" className="back">
+          <span aria-hidden="true">←</span> Writing
         </Link>
         <header className="article-header">
           <span className="post-meta">{formatDate(post.date)}</span>
           <h1>{post.title}</h1>
         </header>
+        {/* Trusted: post HTML is generated from our own committed markdown. */}
         <div className="prose" dangerouslySetInnerHTML={{ __html: post.html }} />
         {post.linkedin && (
           <div className="article-footer">

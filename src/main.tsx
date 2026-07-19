@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import Home from './Home.tsx'
+import Writing from './Writing.tsx'
 import Post from './Post.tsx'
 import CV from './CV.tsx'
 import Persian from './Persian.tsx'
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')!).render(
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/writing" element={<Writing />} />
         <Route path="/writing/:slug" element={<Post />} />
         <Route path="/cv" element={<CV />} />
         <Route path="/persian" element={<Persian />} />

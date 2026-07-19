@@ -8,7 +8,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       <header className="site-header">
         <div className="wrap">
           <nav className="nav">
-            <Link to="/">Writing</Link>
+            <Link to="/writing">Writing</Link>
             <Link to="/cv">CV</Link>
           </nav>
         </div>

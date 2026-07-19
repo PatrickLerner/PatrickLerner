@@ -25,7 +25,13 @@ function parseFrontmatter(raw: string): { data: Record<string, string>; body: st
 }
 
 function makeExcerpt(body: string): string {
-  const firstPara = body.split(/\n\s*\n/)[0].replace(/\s+/g, ' ').trim()
+  const firstPara = body
+    .split(/\n\s*\n/)[0]
+    .replace(/^#+\s*/, '') // heading marker
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // links -> text
+    .replace(/[*_`>]/g, '') // emphasis / code / quote markers
+    .replace(/\s+/g, ' ')
+    .trim()
   if (firstPara.length <= 160) return firstPara
   return firstPara.slice(0, 157).replace(/\s+\S*$/, '') + '…'
 }
@@ -36,7 +42,9 @@ const modules = import.meta.glob('./posts/*.md', {
   eager: true,
 }) as Record<string, string>
 
-const today = new Date().toISOString().slice(0, 10)
+// Local date (not UTC) so same-day scheduled posts appear at local midnight.
+const now = new Date()
+const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`
 
 export const posts: Post[] = Object.entries(modules)
   .map(([path, raw]) => {
