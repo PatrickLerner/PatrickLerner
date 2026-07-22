@@ -39,7 +39,7 @@ In `~/.config/opencode/opencode.jsonc`, under `provider`:
   "models": {
     "glm-5.2": {
       "name": "GLM-5.2 (coding)",
-      "limit": { "context": 200000, "output": 131072 }
+      "limit": { "context": 1048576, "output": 131072 }
     }
   }
 }
