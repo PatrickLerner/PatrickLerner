@@ -1,5 +1,5 @@
-import { useEffect } from 'react'
 import Layout from './Layout'
+import Seo from './Seo'
 import { socials } from './socials'
 
 const roles = [
@@ -34,15 +34,13 @@ const languages = [
 ]
 
 export default function CV() {
-  useEffect(() => {
-    document.title = 'CV · Patrick Lerner'
-    return () => {
-      document.title = 'Patrick Lerner'
-    }
-  }, [])
-
   return (
     <Layout>
+      <Seo
+        title="CV · Patrick Lerner"
+        description="Head of Engineering at Instaffo. I lead the platform team and build software and the teams that build it, with a focus on how AI changes the way we work."
+        path="/cv"
+      />
       <div className="wrap cv">
         <img
           className="cv-photo"
@@ -57,7 +55,7 @@ export default function CV() {
           time on how AI changes the way we work.
         </p>
         <div className="intro-socials">
-          {socials.map((s) => (
+          {socials.map(s => (
             <a key={s.href} href={s.href} target="_blank" rel="noopener noreferrer">
               {s.label}
             </a>
@@ -66,11 +64,11 @@ export default function CV() {
 
         <section className="cv-section">
           <h2>Experience</h2>
-          {roles.map((role) => (
+          {roles.map(role => (
             <div key={role.company} className="cv-role">
               <h3>{role.company}</h3>
               <ul>
-                {role.positions.map((p) => (
+                {role.positions.map(p => (
                   <li key={p.years + p.title}>
                     <span className="cv-years">{p.years}</span>
                     <span>{p.title}</span>
@@ -85,7 +83,7 @@ export default function CV() {
         <section className="cv-section">
           <h2>Skills</h2>
           <ul className="cv-plain">
-            {skills.map((s) => (
+            {skills.map(s => (
               <li key={s.label}>
                 <span className="cv-level">{s.level}</span>
                 <span>{s.label}</span>
@@ -102,7 +100,7 @@ export default function CV() {
         <section className="cv-section">
           <h2>Languages</h2>
           <ul className="cv-plain">
-            {languages.map((l) => (
+            {languages.map(l => (
               <li key={l.level}>
                 <span className="cv-level">{l.level}</span>
                 <span>{l.langs}</span>

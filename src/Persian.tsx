@@ -1,8 +1,14 @@
+import Seo from './Seo'
 import './Persian.css'
 
 function Persian() {
   return (
     <div className="persian-page">
+      <Seo
+        title="Persian Verb Endings · Patrick Lerner"
+        description="A reference for Persian past and present tense verb conjugations, written and spoken forms side by side."
+        path="/persian"
+      />
       <div className="container">
         <div className="grid-two">
           <div className="card">
@@ -374,7 +380,8 @@ function Persian() {
               Possessive Suffixes <span className="persian-inline">صفات ملکی</span>
             </h3>
             <p className="card-desc">
-              Added directly to nouns. Ex: <span className="persian-inline">خانه</span> (khāne) - "house"
+              Added directly to nouns. Ex: <span className="persian-inline">خانه</span> (khāne) -
+              "house"
             </p>
             <table className="verb-table">
               <thead>
@@ -461,9 +468,11 @@ function Persian() {
               </tbody>
             </table>
             <p className="note">
-              <strong>Note:</strong> After consonants, these suffixes connect directly. After vowels, use
+              <strong>Note:</strong> After consonants, these suffixes connect directly. After
+              vowels, use
               <span className="persian-inline"> ی </span> as a connector (e.g.,
-              <span className="persian-inline">کتابم</span> vs <span className="persian-inline">بابایم</span>).
+              <span className="persian-inline">کتابم</span> vs{' '}
+              <span className="persian-inline">بابایم</span>).
             </p>
           </div>
 
@@ -472,7 +481,8 @@ function Persian() {
               Object Pronouns <span className="persian-inline">ضمایر مفعولی</span>
             </h3>
             <p className="card-desc">
-              Used with <span className="persian-inline">را</span> (rā) or attached to verbs for "me", "you", etc.
+              Used with <span className="persian-inline">را</span> (rā) or attached to verbs for
+              "me", "you", etc.
             </p>
             <table className="verb-table">
               <thead>
@@ -571,8 +581,8 @@ function Persian() {
               </tbody>
             </table>
             <p className="note">
-              <strong>Note:</strong> In spoken Persian, <span className="persian-inline">را</span> (rā) is
-              often shortened to <span className="persian-inline">رو</span> (ro).
+              <strong>Note:</strong> In spoken Persian, <span className="persian-inline">را</span>{' '}
+              (rā) is often shortened to <span className="persian-inline">رو</span> (ro).
             </p>
           </div>
         </div>

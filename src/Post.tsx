@@ -1,18 +1,11 @@
-import { useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Layout from './Layout'
+import Seo from './Seo'
 import { getPost, formatDate } from './posts'
 
 export default function Post() {
   const { slug } = useParams()
   const post = slug ? getPost(slug) : undefined
-
-  useEffect(() => {
-    if (post) document.title = `${post.title} · Patrick Lerner`
-    return () => {
-      document.title = 'Patrick Lerner'
-    }
-  }, [post])
 
   if (!post) {
     return (
@@ -27,8 +20,30 @@ export default function Post() {
     )
   }
 
+  const path = `/writing/${post.slug}`
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    dateModified: post.date,
+    url: `https://patricklerner.com${path}`,
+    mainEntityOfPage: `https://patricklerner.com${path}`,
+    author: { '@type': 'Person', name: 'Patrick Lerner', url: 'https://patricklerner.com' },
+    publisher: { '@type': 'Person', name: 'Patrick Lerner' },
+  }
+
   return (
     <Layout>
+      <Seo
+        title={`${post.title} · Patrick Lerner`}
+        description={post.excerpt}
+        path={path}
+        type="article"
+        publishedTime={post.date}
+        jsonLd={jsonLd}
+      />
       <article className="wrap article">
         <Link to="/writing" className="back">
           <span aria-hidden="true">←</span> Writing

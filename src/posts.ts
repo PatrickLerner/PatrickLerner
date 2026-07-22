@@ -60,11 +60,11 @@ export const posts: Post[] = Object.entries(modules)
       html: marked.parse(body) as string,
     }
   })
-  .filter((post) => post.date && post.date <= today)
+  .filter(post => post.date && post.date <= today)
   .sort((a, b) => b.date.localeCompare(a.date))
 
 export function getPost(slug: string): Post | undefined {
-  return posts.find((p) => p.slug === slug)
+  return posts.find(p => p.slug === slug)
 }
 
 export function formatDate(iso: string): string {

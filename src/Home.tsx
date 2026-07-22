@@ -1,7 +1,18 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import Seo from './Seo'
 import { posts, formatDate } from './posts'
 import { socials } from './socials'
+
+const personJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Patrick Lerner',
+  jobTitle: 'Head of Engineering',
+  worksFor: { '@type': 'Organization', name: 'Instaffo' },
+  url: 'https://patricklerner.com',
+  sameAs: socials.map(s => s.href),
+}
 
 export default function Home() {
   const [scrolled, setScrolled] = useState(false)
@@ -32,6 +43,12 @@ export default function Home() {
 
   return (
     <div className="hero-page">
+      <Seo
+        title="Patrick Lerner"
+        description="Head of Engineering at Instaffo. I write about AI in real engineering practice."
+        path="/"
+        jsonLd={personJsonLd}
+      />
       <header className={`hero-header${scrolled ? ' is-scrolled' : ''}`}>
         <Link to="/" className="hero-brand">
           Patrick Lerner
@@ -51,7 +68,7 @@ export default function Home() {
           <a
             href="#writing"
             className="hero-btn"
-            onClick={(e) => {
+            onClick={e => {
               e.preventDefault()
               document.getElementById('writing')?.scrollIntoView({ behavior: 'smooth' })
             }}
@@ -71,7 +88,7 @@ export default function Home() {
         <div className="wrap">
           <p className="section-label">Writing</p>
           <ul className="post-list">
-            {posts.map((post) => (
+            {posts.map(post => (
               <li key={post.slug}>
                 <Link to={`/writing/${post.slug}`} className="post-link">
                   <span className="post-meta">{formatDate(post.date)}</span>
@@ -87,7 +104,7 @@ export default function Home() {
           <div className="wrap">
             <span>© {new Date().getFullYear()} Patrick Lerner</span>
             <span className="links">
-              {socials.map((s) => (
+              {socials.map(s => (
                 <a key={s.href} href={s.href} target="_blank" rel="noopener noreferrer">
                   {s.label}
                 </a>

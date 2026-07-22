@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite-react-ssg build && node scripts/generate-sitemap.mjs",
     "lint": "eslint . && prettier --check . && stylelint \"**/*.css\"",
     "format": "prettier --write .",
     "preview": "vite preview"
@@ -14,7 +14,8 @@
     "marked": "18.0.5",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-router-dom": "^7.9.4"
+    "react-router-dom": "6.30.4",
+    "vite-react-ssg": "0.9.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",

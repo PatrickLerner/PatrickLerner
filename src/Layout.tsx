@@ -20,7 +20,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         <div className="wrap">
           <span>© {new Date().getFullYear()} Patrick Lerner</span>
           <span className="links">
-            {socials.map((s) => (
+            {socials.map(s => (
               <a key={s.href} href={s.href} target="_blank" rel="noopener noreferrer">
                 {s.label}
               </a>
