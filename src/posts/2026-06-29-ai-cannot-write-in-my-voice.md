@@ -3,6 +3,7 @@ title: AI cannot write in my voice
 date: 2026-06-29
 theme: ai-in-practice
 linkedin: https://www.linkedin.com/feed/update/urn:li:activity:7477250371770540032/
+excerpt: I gave my agent hundreds of thousands of words of my own writing. It still cannot draft a paragraph I would recognize as mine.
 ---
 
 I gave my agent years of my own writing. Nine years of journals, more than 150,000 words. Another 130,000 words of letters to pen pals. So one voice with hundreds of thousands of real written words. This should be the perfect case to copy how someone writes. But it still cannot draft a paragraph I would recognize as mine.

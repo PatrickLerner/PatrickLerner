@@ -56,7 +56,7 @@ export const posts: Post[] = Object.entries(modules)
       date: data.date ?? '',
       theme: data.theme,
       linkedin: data.linkedin,
-      excerpt: makeExcerpt(body),
+      excerpt: data.excerpt ?? makeExcerpt(body),
       html: marked.parse(body) as string,
     }
   })
