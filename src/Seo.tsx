@@ -11,6 +11,7 @@ interface SeoProps {
   type?: 'website' | 'article'
   publishedTime?: string
   jsonLd?: Record<string, unknown>
+  noindex?: boolean
 }
 
 export default function Seo({
@@ -21,6 +22,7 @@ export default function Seo({
   type = 'website',
   publishedTime,
   jsonLd,
+  noindex = false,
 }: SeoProps) {
   const url = `${SITE}${path}`
   const img = image.startsWith('http') ? image : `${SITE}${image}`
@@ -29,6 +31,7 @@ export default function Seo({
     <Head>
       <title>{title}</title>
       <meta name="description" content={description} />
+      {noindex ? <meta name="robots" content="noindex, nofollow" /> : null}
       <link rel="canonical" href={url} />
 
       <meta property="og:type" content={type} />

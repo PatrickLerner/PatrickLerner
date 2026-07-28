@@ -6,6 +6,7 @@ import Writing from './Writing'
 import Post from './Post'
 import CV from './CV'
 import Persian from './Persian'
+import Impressum from './Impressum'
 import { posts } from './posts'
 
 export const routes: RouteRecord[] = [
@@ -23,6 +24,7 @@ export const routes: RouteRecord[] = [
       },
       { path: 'cv', element: <CV />, entry: 'src/CV.tsx' },
       { path: 'persian', element: <Persian />, entry: 'src/Persian.tsx' },
+      { path: 'impressum', element: <Impressum />, entry: 'src/Impressum.tsx' },
       { path: '*', element: <Navigate to="/" replace /> },
     ],
   },
