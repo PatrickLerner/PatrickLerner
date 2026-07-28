@@ -1,7 +1,6 @@
 ---
 title: Routing z.ai GLM Through Headroom in opencode
 date: 2026-07-22
-theme: ai-in-practice
 ---
 
 A short tutorial for adding a z.ai GLM coding model (GLM-5.2) to opencode, routed through the Headroom proxy so requests still get context compression.

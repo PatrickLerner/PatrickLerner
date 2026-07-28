@@ -1,7 +1,6 @@
 ---
 title: Every AI Workflow Is a Verification Loop
 date: 2026-08-04
-theme: ai-in-practice
 ---
 
 Every AI workflow needs to run the same loop: generate, then check, then fix if the check fails.

@@ -1,7 +1,6 @@
 ---
 title: Error messages are instructions
 date: 2026-08-06
-theme: ai-in-practice
 ---
 
 Error messages are instructions. Both for humans as well as agents.

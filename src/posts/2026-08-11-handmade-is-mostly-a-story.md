@@ -1,7 +1,6 @@
 ---
 title: Handmade is mostly a story
 date: 2026-08-11
-theme: ai-in-practice
 ---
 
 We tell ourselves handmade means better. Most of the time, it doesn't.

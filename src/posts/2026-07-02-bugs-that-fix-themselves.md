@@ -1,7 +1,6 @@
 ---
 title: Bugs that fix themselves
 date: 2026-07-02
-theme: ai-in-practice
 linkedin: https://www.linkedin.com/feed/update/urn:li:share:7478327946718445569
 ---
 

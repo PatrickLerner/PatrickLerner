@@ -1,7 +1,6 @@
 ---
 title: Instrument your agents
 date: 2026-07-28
-theme: ai-in-practice
 ---
 
 If you run automated AI agent sessions, instrument them.
