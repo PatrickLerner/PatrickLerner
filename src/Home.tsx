@@ -104,6 +104,7 @@ export default function Home() {
           <div className="wrap">
             <span>© {new Date().getFullYear()} Patrick Lerner</span>
             <span className="links">
+              <Link to="/impressum">Legal & Privacy</Link>
               {socials.map(s => (
                 <a key={s.href} href={s.href} target="_blank" rel="noopener noreferrer">
                   {s.label}
