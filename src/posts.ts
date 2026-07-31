@@ -12,6 +12,20 @@ export interface Post {
 
 marked.setOptions({ gfm: true, breaks: false })
 
+const escapeAttr = (s: string) => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;')
+
+marked.use({
+  renderer: {
+    link({ href, title, tokens }) {
+      const text = this.parser.parseInline(tokens)
+      const attrs = [`href="${escapeAttr(href)}"`]
+      if (title) attrs.push(`title="${escapeAttr(title)}"`)
+      if (/^https?:\/\//.test(href)) attrs.push('target="_blank"', 'rel="noopener noreferrer"')
+      return `<a ${attrs.join(' ')}>${text}</a>`
+    },
+  },
+})
+
 function parseFrontmatter(raw: string): { data: Record<string, string>; body: string } {
   const match = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/)
   if (!match) return { data: {}, body: raw.trim() }
