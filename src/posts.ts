@@ -33,7 +33,9 @@ function parseFrontmatter(raw: string): { data: Record<string, string>; body: st
   for (const line of match[1].split('\n')) {
     const i = line.indexOf(':')
     if (i === -1) continue
-    data[line.slice(0, i).trim()] = line.slice(i + 1).trim()
+    const value = line.slice(i + 1).trim()
+    // values may be YAML-quoted when they contain a colon
+    data[line.slice(0, i).trim()] = value.replace(/^(['"])([\s\S]*)\1$/, '$2')
   }
   return { data, body: match[2].trim() }
 }
