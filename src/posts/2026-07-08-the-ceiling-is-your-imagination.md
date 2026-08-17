@@ -1,6 +1,7 @@
 ---
 title: The ceiling is your imagination
 date: 2026-07-08
+theme: ai-in-practice
 linkedin: https://www.linkedin.com/feed/update/urn:li:share:7480522288812052480
 ---
 

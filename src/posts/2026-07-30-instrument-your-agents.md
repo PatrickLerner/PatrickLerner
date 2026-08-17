@@ -1,6 +1,8 @@
 ---
 title: Instrument your agents
-date: 2026-07-28
+date: 2026-07-30
+theme: ai-in-practice
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7488479081689317376
 ---
 
 If you run automated AI agent sessions, instrument them.

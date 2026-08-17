@@ -1,6 +1,8 @@
 ---
 title: Design for Delegation Not Participation
 date: 2026-07-28
+theme: ai-in-practice
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7487752571345076225
 ---
 
 Too many agentic products waste your time by keeping you watching.

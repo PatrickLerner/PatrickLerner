@@ -1,6 +1,8 @@
 ---
 title: Who Signs Off Matters More
 date: 2026-07-29
+theme: ai-in-practice
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7488162007460892673
 ---
 
 You are paid for your accountability, not your execution.

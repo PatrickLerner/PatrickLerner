@@ -1,6 +1,7 @@
 ---
 title: Filing is the bottleneck
 date: 2026-07-16
+theme: ai-in-practice
 linkedin: https://www.linkedin.com/feed/update/urn:li:share:7483401372961406976
 ---
 
