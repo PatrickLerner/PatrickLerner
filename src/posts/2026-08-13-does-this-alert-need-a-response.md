@@ -1,6 +1,8 @@
 ---
 title: Does this alert need a response?
-date: 2026-08-12
+date: 2026-08-13
+theme: eng-leadership
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7493552511723741184
 ---
 
 Do you get alarms and notifications that you find not actionable?

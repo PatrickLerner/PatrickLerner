@@ -1,6 +1,7 @@
 ---
 title: Raise the Floor of Capability
 date: 2026-07-14
+theme: ai-in-practice
 linkedin: https://www.linkedin.com/feed/update/urn:li:share:7482719130735808512
 ---
 

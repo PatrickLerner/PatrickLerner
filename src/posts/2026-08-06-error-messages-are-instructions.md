@@ -1,6 +1,8 @@
 ---
 title: Error messages are instructions
 date: 2026-08-06
+theme: ai-in-practice
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7491026621848633344
 ---
 
 Error messages are instructions. Both for humans as well as agents.

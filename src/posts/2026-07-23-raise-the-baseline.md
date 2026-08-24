@@ -1,6 +1,8 @@
 ---
 title: Raise the Baseline
-date: 2026-08-18
+date: 2026-07-23
+theme: reflection
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7485972566361219072
 ---
 
 People optimize for peak moments. But I think that's usually backwards.

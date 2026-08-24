@@ -1,6 +1,8 @@
 ---
 title: Automating work that should not exist
 date: 2026-08-05
+theme: ai-in-practice
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7490653410950537216
 ---
 
 The most expensive thing AI does is let you automate work that should not exist.

@@ -1,6 +1,8 @@
 ---
 title: Handmade is mostly a story
-date: 2026-08-11
+date: 2026-08-12
+theme: ai-in-practice
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7493209248622039040
 ---
 
 We tell ourselves handmade means better. Most of the time, it doesn't.

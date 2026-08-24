@@ -1,6 +1,7 @@
 ---
 title: Forget what school taught you
 date: 2026-07-06
+theme: learning
 linkedin: https://www.linkedin.com/feed/update/urn:li:share:7479796623754084352
 ---
 

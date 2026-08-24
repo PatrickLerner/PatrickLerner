@@ -1,6 +1,8 @@
 ---
 title: Stop complaining automate it
 date: 2026-07-21
+theme: ai-in-practice
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7485263895742316544
 ---
 
 Stop complaining and just start automating it. You don't need the automation to be good. You need it to be able to get better.

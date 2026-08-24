@@ -1,6 +1,7 @@
 ---
 title: Make It Write a Skill
-date: 2026-08-20
+date: 2026-09-02
+theme: ai-in-practice
 ---
 
 If your agent figured something out once, make it write it down.

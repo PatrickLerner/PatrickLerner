@@ -1,6 +1,7 @@
 ---
 title: Tech debt is melting
-date: 2026-07-23
+date: 2026-08-26
+theme: ai-in-practice
 ---
 
 Everyone worries that AI is burying us in tech debt. In our codebase the opposite is happening. Tech debt is melting.
