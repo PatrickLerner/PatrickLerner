@@ -2,6 +2,7 @@
 title: Outsource the typing, not the deciding
 date: 2026-08-18
 theme: ai-in-practice
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7495364973666349056
 ---
 
 Bro, form your own opinion before you let AI near it.

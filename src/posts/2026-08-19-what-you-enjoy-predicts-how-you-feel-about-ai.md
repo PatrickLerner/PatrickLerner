@@ -2,6 +2,7 @@
 title: What you enjoy predicts how you feel about AI
 date: 2026-08-19
 theme: eng-leadership
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7495726845032751104
 ---
 
 I think what you enjoy about the work predicts how you feel about AI.

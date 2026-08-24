@@ -2,6 +2,7 @@
 title: Seniors cannot delegate
 date: 2026-08-20
 theme: ai-in-practice
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7496100074335309824
 ---
 
 I think some senior engineers struggle with delegation to agents more than non-engineers.
