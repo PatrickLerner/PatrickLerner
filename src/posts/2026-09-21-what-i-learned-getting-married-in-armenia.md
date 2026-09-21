@@ -36,17 +36,22 @@ Two things that look like shortcuts and are not. A birth certificate is useless 
 
 **From Iran**, a certificate of celibacy from the embassy in Yerevan. The embassy issues it already translated, and you then take it to the Armenian Ministry of Foreign Affairs, which confirms the embassy's work. No international shipping, no apostille from home. That is a far easier path than mine.
 
+**Both of you** also need an official Armenian translation of your passport. Do not go hunting for an agency for this one. The registry office itself, the ՔԿԱԳ, which is the Armenian equivalent of a ZAGS or a Standesamt, does it for you at around 5,000 AMD per document.
+
 If only one of you needs documents from a third country, plan the whole schedule around that person.
 
 ## What it cost
 
 - **German documents**: certificates, apostille and express shipping to Yerevan, around 250 euros. Shipping alone was over 100.
 - **Certified Armenian translation** of the German documents: 37,000 AMD, roughly 85 euros, notary fee included.
+- **Passport translations**: around 5,000 AMD each, done at the registry office.
 - **Iranian embassy certificate**: around 20,000 AMD, if memory serves.
 - **Confirmation by the Armenian Ministry of Foreign Affairs**: around 5,000 AMD.
 - **State duty for the registration**: 100,000 AMD. It is free only if both of you are Armenian. As soon as one foreigner is involved, you pay.
 - **Apostille on the marriage certificate**: 7,000 AMD.
 - **Ceremony**: an optional add-on, 20,000 to 60,000 AMD depending on venue and day. We skipped it.
+
+That is around 665 euros all in, and closer to 560 once DHL refunded the shipping. No lawyer, no ceremony, no rings. The single biggest line is the state duty, and the second is getting two pieces of German paper into Armenia.
 
 ## Always get several translation quotes
 
@@ -64,7 +69,7 @@ Go early. Treat every office as morning-only until proven otherwise.
 
 The law has no language provision at all for this procedure. The general administrative law says proceedings run in Armenian, and that you bring your own translator if you need another language, but only if the office cannot handle you itself.
 
-In practice it depends on who you get. Our clerk would not speak English. Not could not, would not. So we asked another woman in the room, there for her own appointment, whether she would interpret for us. She agreed, then told us the clerk was simply being unpleasant, and we ended up redirected to a colleague who ran the whole process for us instead.
+In practice it depends on who you get. Our clerk would not speak English. Not could not, would not. We asked another woman in the room, there for her own appointment, whether she would interpret for us. She agreed, then told us the clerk was simply being unpleasant, and we ended up redirected to a colleague who ran the whole process for us instead.
 
 That was the only real friction of the day. Once we had someone willing it took minutes. She asked one date back from my paperwork, what surname Samira wanted, and when we wanted to marry. She was surprised we said the next day. That was the entire interview.
 
@@ -92,7 +97,7 @@ Nobody asks you to say anything. Nobody signs anything on the day. You sign once
 
 A ceremony exists as a paid checkbox on the form. We did not want one. The idea that a single day defines a marriage is a story you can buy, not a thing that is true.
 
-The certificate is supposed to arrive by email. Ours never did. We went back and asked, and the woman printed it for us on the spot. So treat the email as optional. Once you hold the document, it carries a link and a QR code, and you can pull the digital original from there whenever you want.
+The certificate is supposed to arrive by email. Ours never did. We went back and asked, and the woman printed it for us right there. Treat the email as optional. Once you hold the document, it carries a link and a QR code, and you can pull the digital original from there whenever you want.
 
 That matters, because there is no wet ink original in Armenia. There is a digital document and there are printouts of it. Going to an office to have them print one is pointless, since you can print it yourself.
 
