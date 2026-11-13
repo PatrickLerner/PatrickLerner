@@ -2,6 +2,7 @@
 title: Opinionated Codebase
 date: 2026-09-03
 theme: ai-in-practice
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7501162657991778304
 ---
 
 If you want to get great results, you need to set your project up for agentic success.

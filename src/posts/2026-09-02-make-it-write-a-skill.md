@@ -2,6 +2,7 @@
 title: Make It Write a Skill
 date: 2026-09-02
 theme: ai-in-practice
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7503699373592076288
 ---
 
 If your agent figured something out once, make it write it down.

@@ -2,6 +2,7 @@
 title: Cognitive Endurance Is The Limit
 date: 2026-09-23
 theme: ai-in-practice
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7508410416025280512
 ---
 
 Typing speed is no longer the limit, but your cognitive endurance.

@@ -2,6 +2,7 @@
 title: Skill Is The Axis AI Compresses
 date: 2026-09-24
 theme: leadership
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7508772799856160768
 ---
 
 Skill is the axis almost every hiring and promotion decision runs on. It is also the axis AI is compressing fastest.

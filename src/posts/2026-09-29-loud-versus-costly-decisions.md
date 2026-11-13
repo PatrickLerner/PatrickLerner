@@ -2,6 +2,7 @@
 title: Loud Versus Costly Decisions
 date: 2026-09-29
 theme: leadership
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7510958704188379137
 ---
 
 Attention usually goes to whatever is loudest.

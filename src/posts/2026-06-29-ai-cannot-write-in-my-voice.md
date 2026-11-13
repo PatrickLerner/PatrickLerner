@@ -2,7 +2,7 @@
 title: AI cannot write in my voice
 date: 2026-06-29
 theme: ai-in-practice
-linkedin: https://www.linkedin.com/feed/update/urn:li:activity:7477250371770540032/
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7477250368683499520
 excerpt: I gave my agent hundreds of thousands of words of my own writing. It still cannot draft a paragraph I would recognize as mine.
 ---
 

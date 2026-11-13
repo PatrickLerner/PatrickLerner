@@ -2,6 +2,7 @@
 title: Vibe Coding Is A Slur
 date: 2026-09-17
 theme: ai-in-practice
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7506236088437485568
 ---
 
 Vibe Coding is a slur

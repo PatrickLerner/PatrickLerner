@@ -2,6 +2,7 @@
 title: Go Find The Problem
 date: 2026-09-22
 theme: leadership
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7508049032183910400
 ---
 
 One of the biggest constraints on delivery is not capacity. It is people waiting for someone else to clear their blocker.

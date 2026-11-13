@@ -2,6 +2,7 @@
 title: Hoarding the interesting work
 date: 2026-09-10
 theme: leadership
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7502975603571269633
 ---
 
 The problem I find most interesting is the one I should hand to someone else.

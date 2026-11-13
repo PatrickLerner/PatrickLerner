@@ -2,6 +2,7 @@
 title: The cheapest item on the motivation list
 date: 2026-08-25
 theme: eng-leadership
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7497902176334233600
 ---
 
 Your outcome depends on how well you communicate your mission.

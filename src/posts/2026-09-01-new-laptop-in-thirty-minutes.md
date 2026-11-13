@@ -2,6 +2,7 @@
 title: New laptop in thirty minutes
 date: 2026-09-01
 theme: ai-in-practice
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7500811847176982528
 ---
 
 A new work laptop usually means a day of reinstalling and reconfiguring. Mine was ready for real work in about 30 minutes.

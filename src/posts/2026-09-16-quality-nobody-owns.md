@@ -2,6 +2,7 @@
 title: Quality Nobody Owns
 date: 2026-09-16
 theme: leadership
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7505873703927410688
 ---
 
 Who owns quality of delivery?

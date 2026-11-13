@@ -2,6 +2,7 @@
 title: Depth Is What AI Does Not Cover
 date: 2026-09-15
 theme: leadership
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7505512319024623616
 ---
 
 Job titles describe the work less and less.

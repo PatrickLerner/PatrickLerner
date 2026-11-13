@@ -2,6 +2,7 @@
 title: Pre-assemble the context
 date: 2026-08-27
 theme: ai-in-practice
+linkedin: https://www.linkedin.com/feed/update/urn:li:share:7498625944220327936
 ---
 
 Don't give an agent MCP tools and hope it fetches the right context. Pre-assemble the context deterministically and put it straight in the prompt.
